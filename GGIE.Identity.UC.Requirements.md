@@ -111,6 +111,15 @@ used and misused.
 2.  An issuer of a pseudonym shall maintain anonymity for the user
     except as specified by the user and any
     legal/regulatory requirements.
+3.  A pseudonym that has been issued by a 3rd party issuer should include 
+    a means to identify the issuer. The purpose is to enable a service 
+    presented with the pseudonym to verify it is valid in cases where e.g. 
+    the service needs to authenticate the user of the pseudonym without requiring
+    PII from the user. One method for this might be the user presents his 
+    pseudonym to a service reqeuesting a resource. The service discovers the 
+    issuer and sends a request via the user to the issuer to verify the user of 
+    the pseudonym which is relayed via the user to the service.
+    
 
 **User Requirements**
 
