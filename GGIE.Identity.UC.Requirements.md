@@ -130,6 +130,12 @@ used and misused.
     accomplished by the use of a trusted 3^rd^ party as an intermediary,
     a proxy service, or other means.
 
+** Import / Export Requirements **
+
+1. It may be possible for an identifier to be marked to require it be anonymized when content it is associated with is exported.  For example the identifer XYZ marked as having the anonymize on export attribute and used in the metadata for a video asset would be translated from XYZ to an anonymized identifier in the metadata for the exported video asset.
+
+2. When importing an asset that in its metadata has an identifier issued by an external entity it should be possible to map that idenfitier to an identifier in scope for the system that is importing the asset.   It may be possible to make this association persistent for use in future imports. Likewise, it may be possible to make this association bidirectional so that it is possible to replace the local system identifier with the previously mapped associated external identifier upon expoer of the asset.
+
 **Processor/Workflow Requirements**
 
 a.  
