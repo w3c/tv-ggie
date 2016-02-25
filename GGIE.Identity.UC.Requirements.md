@@ -130,7 +130,7 @@ used and misused.
     accomplished by the use of a trusted 3^rd^ party as an intermediary,
     a proxy service, or other means.
 
-** Import / Export Requirements **
+**Import / Export Requirements**
 
 1. It may be possible for an identifier to be marked to require it be anonymized when content it is associated with is exported.  For example the identifer XYZ marked as having the anonymize on export attribute and used in the metadata for a video asset would be translated from XYZ to an anonymized identifier in the metadata for the exported video asset.
 
