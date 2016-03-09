@@ -85,7 +85,8 @@ document are to be interpreted as described in RFC 2119.
 4.  A 3rd party may be used to assign or otherwise create a unique
     pseudonym on request from a user or for a specific use.
 
-**Ease of Use Requirements\
+**Ease of Use Requirements**
+
 **Although there are numerous means to obtain anonymity and pseudonymity
 for online activities, most today are complex and not understood by the
 typical user. Few users are aware of the amount of information they
