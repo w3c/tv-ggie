@@ -87,7 +87,7 @@ document are to be interpreted as described in RFC 2119.
 
 **Ease of Use Requirements**
 
-**Although there are numerous means to obtain anonymity and pseudonymity
+Although there are numerous means to obtain anonymity and pseudonymity
 for online activities, most today are complex and not understood by the
 typical user. Few users are aware of the amount of information they
 provide in their online activities and how that information is or can be
@@ -162,8 +162,9 @@ a.
     pseudonyms separately to ensure it is only accessible to
     services/applications associated with that pseudonym.
 
-**Security Requirements\
-**The concept of PII is somewhat vague and defined differently in
+**Security Requirements**
+
+The concept of PII is somewhat vague and defined differently in
 different domains and regulatory regimes. To secure PII some assumptions
 will need to be made with respect to exactly what this group includes in
 its definition.
