@@ -1,10 +1,10 @@
-**GGIE Identity Use Case Requirements v.1: **
+##GGIE Identity Use Case Requirements v.1:  
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
 "SHOULD", "SHOULD NOT", “RECOMMENDED", "MAY", and "OPTIONAL" in this
 document are to be interpreted as described in RFC 2119.
 
-**Privacy Requirements**
+###Privacy Requirements  
 
 1.  Online anonymity: Personally Identifiable Information (PII) shall
     not be provided during online activities in a manner that, either by
@@ -25,9 +25,9 @@ document are to be interpreted as described in RFC 2119.
 
         -   Other PII (TBD)
 
-> Note: The requirements for anonymity do not include PII voluntarily
-> provided by the user directly by entering information on form or via
-> opt-in settings that enable PII to be provided.
+    : The requirements for anonymity do not include PII voluntarily
+    ided by the user directly by entering information on form or via
+    in settings that enable PII to be provided.
 
 1.  Voluntarily entering information shall not enable PII of other forms
     to be provided without the users consent or opt-in.
@@ -44,8 +44,8 @@ document are to be interpreted as described in RFC 2119.
 5.  The user shall have the ability to create or delete
     their pseudonym(s).
 
-> Note: The deletion of a pseudonym does not necessarily eliminate
-> information that was previously linked to that identity.
+    Note: Deletion of a pseudonym does not necessarily eliminate
+    information that was previously linked to that identity.
 
 1.  An unlinked pseudonym must not be connected, without user consent,
     to other identities previously created, currently in use, or
@@ -68,10 +68,8 @@ document are to be interpreted as described in RFC 2119.
 6.  Pseudonyms may require a means to ensure that the actual pseudonym
     being used is encrypted, obfuscated, hashed, or otherwise concealed
     from others while being communicated to deter tracking by
-    unknown parties.
-
-**Naming Requirements**
-
+    unknown parties  
+###Naming Requirements
 1.  A pseudonym must be human readable.
 
 2.  A pseudonym must include or be linked to a unique number or code to
@@ -83,16 +81,13 @@ document are to be interpreted as described in RFC 2119.
     domain of use. e.g. membership in an organization.
 
 4.  A 3rd party may be used to assign or otherwise create a unique
-    pseudonym on request from a user or for a specific use.
-
-**Ease of Use Requirements**
-
-Although there are numerous means to obtain anonymity and pseudonymity
-for online activities, most today are complex and not understood by the
-typical user. Few users are aware of the amount of information they
-provide in their online activities and how that information is or can be
-used and misused.
-
+    pseudonym on request from a user or for a specific use.  
+###Ease of Use Requirements  
+    Although there are numerous means to obtain anonymity and pseudonymity
+    for online activities, most today are complex and not understood by the
+    typical user. Few users are aware of the amount of information they
+    provide in their online activities and how that information is or can be
+    used and misused.
 1.  The methods necessary to achieve anonymity and pseudonymity must be
     simple to understand and use such as, for example, the methods used
     for parental control of online access for children today.
@@ -102,10 +97,8 @@ used and misused.
     default to anonymous or such settings should be made simple, clear
     and obvious to users during initial setup with simple temporary or
     application specific user driven overrides available for services
-    that require it under control of the user.
-
-**Issuer Requirements**
-
+    that require it under control of the user.  
+###Issuer Requirements  
 1.  An issuer of a pseudonym shall create a unique pseudonym based on
     the user’s input (the human readable form).
 
@@ -119,11 +112,8 @@ used and misused.
     PII from the user. One method for this might be the user presents his 
     pseudonym to a service reqeuesting a resource. The service discovers the 
     issuer and sends a request via the user to the issuer to verify the user of 
-    the pseudonym which is relayed via the user to the service.
-    
-
-**User Requirements**
-
+    the pseudonym which is relayed via the user to the service.  
+###User Requirements  
 1.  Users should only be required to understand the higher level goals
     of online anonymity and the use of unique identities (pseudonyms).
     They should not be required to understand the underlying mechanisms
@@ -138,20 +128,14 @@ used and misused.
     router with a fixed IP address) without the user having to make
     changes to each device and application settings. This may be
     accomplished by the use of a trusted 3^rd^ party as an intermediary,
-    a proxy service, or other means.
-
-**Import / Export Requirements**
-
+    a proxy service, or other means.  
+###Import / Export Requirements  
 1. It may be possible for an identifier to be marked to require it be anonymized when content it is associated with is exported.  For example the identifer XYZ marked as having the anonymize on export attribute and used in the metadata for a video asset would be translated from XYZ to an anonymized identifier in the metadata for the exported video asset.
 
-2. When importing an asset that in its metadata has an identifier issued by an external entity it should be possible to map that idenfitier to an identifier in scope for the system that is importing the asset.   It may be possible to make this association persistent for use in future imports. Likewise, it may be possible to make this association bidirectional so that it is possible to replace the local system identifier with the previously mapped associated external identifier upon expoer of the asset.
-
-**Processor/Workflow Requirements**
-
-a.  
-
-**Device Requirements**
-
+2. When importing an asset that in its metadata has an identifier issued by an external entity it should be possible to map that idenfitier to an identifier in scope for the system that is importing the asset.   It may be possible to make this association persistent for use in future imports. Likewise, it may be possible to make this association bidirectional so that it is possible to replace the local system identifier with the previously mapped associated external identifier upon expoer of the asset.  
+###Processor/Workflow Requirements  
+TBD  
+###Device Requirements  
 1.  Devices shall include the ability to block, obfuscate, encrypt or
     otherwise ensure that PII associated with the device such as MAC
     addresses, IP addresses assigned to it, device related fingerprints,
@@ -160,29 +144,23 @@ a.
 2.  Devices may be required to store PII in a secure manner. This may
     include the ability to secure PII associated with different
     pseudonyms separately to ensure it is only accessible to
-    services/applications associated with that pseudonym.
-
-**Security Requirements**
-
-The concept of PII is somewhat vague and defined differently in
-different domains and regulatory regimes. To secure PII some assumptions
-will need to be made with respect to exactly what this group includes in
-its definition.
-
+    services/applications associated with that pseudonym.  
+###Security Requirements  
+    The concept of PII is somewhat vague and defined differently in
+    different domains and regulatory regimes. To secure PII some assumptions
+    will need to be made with respect to exactly what this group includes in
+    its definition.  
 1.  Device PII: IP address; MAC address; hardware, firmware
     fingerprints; location; S/N; make/model; others
 
 2.  Software PII: Software, browser and app fingerprints; Software,
     browser and app user-specific PII (settings, name, address,
     business, registration numbers, location, memberships,
-    history, etc.).
-
-**Business Requirements**
-
-Many business require PII of various types for their business models and
-will not provide their services to users/devices that do not provide it
-to them.
-
+    history, etc.).  
+###Business Requirements  
+    Many business require PII of various types for their business models and
+    will not provide their services to users/devices that do not provide it
+    to them.  
 1.  A pseudonym must be linkable to specific PII as needed to fulfil the
     business requirements of the service provider.
 
