@@ -30,7 +30,7 @@ document are to be interpreted as described in RFC 2119.
     in settings that enable PII to be provided.
 
 1.  Voluntarily entering information shall not enable PII of other forms
-    to be provided without the users consent or opt-in.
+    to be provided without the users consent or opt-in. [a relative link](identity-use-cases.md)
 
 2.  Anonymity may use of one or more 3rd party services to block,
     eliminate, encrypt, or obfuscate or otherwise make unusable certain
