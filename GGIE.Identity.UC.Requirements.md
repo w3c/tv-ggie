@@ -27,10 +27,10 @@ document are to be interpreted as described in RFC 2119.
 
     : The requirements for anonymity do not include PII voluntarily
     ided by the user directly by entering information on form or via
-    in settings that enable PII to be provided.
+    in settings that enable PII to be provided.[a relative link](identity-use-cases.md#Identity Use Case 1)
 
 1.  Voluntarily entering information shall not enable PII of other forms
-    to be provided without the users consent or opt-in. [a relative link](identity-use-cases.md)
+    to be provided without the users consent or opt-in. 
 
 2.  Anonymity may use of one or more 3rd party services to block,
     eliminate, encrypt, or obfuscate or otherwise make unusable certain
