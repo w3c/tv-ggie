@@ -39,10 +39,11 @@ Linked pseudonym service
 
 Identity Use Case 6: Anonymizing the Creation of Content (Formerly UC 3, revised)  
 John is an amateur photographer and videographer. He posts many of his creations, often for profit through contributions from viewers, advertising or by offering it for sale. Some of his work is controversial and has in the past generated vitriolic responses and even threats to him and his family. 
-He would like to be able to choose when and whether to
-•	link his true identity to his work 
-•	link a unique identity his work
-•	remain totally anonymous 
+He would like to be able to choose when and whether to  
+* Link his true identity to his work  
+* Llink a unique identity his work  
+* Remain totally anonymous
+
 His true identity would be used to build his portfolio. A linked identity might be used to allow audiences to follow his work and to allow him to profit from those works without revealing his true identify. Multiple linked identities would allow him to target different audiences with different works. Anonymous unlinked identities would allow his to post his more controversial work without fear of having it linked to him or his family. 
 Recognizing that it is not just his name that can be used to identify him, he wants to be able to control access to other PII that could be used to identify him under the various scenarios. In addition to the PII information in Use Case 1, his camera (or smart phone, etc.) may attach PII such as location, date and time, etc., to his photos and videos which can be used to tie his pseudonyms to his true identity. However, he would like to maintain the ability for this information to be recovered and used for billing or other purposes, at least in the case of linked pseudonyms. 
 
@@ -61,12 +62,11 @@ Bob has an account with ExampleCo. He set up an identity (pseudonym) with Exampl
 Bob would also like to assign the old ID to a law enforcement agency or organization so it can be used to help track down the thief or whomever purchased it from the thief in the event they attempt to use it. 
 
 Identity Use Case 11: Content Purchase Using Unique Identity  
-Julie purchases all of her movies, music, and other content from a number of online sites. She also uses several streaming services. She is uncomfortable providing her credit card or bank account information to these sites since at least one of them has been compromised in the past (that she knows of). She uses a payment service for those sites that allow it but she would like her identity and privacy to be better protected. Specifically, she would like to: 
-
-1) use a unique identifier (pseudonym) to order content and services from the sites without providing any personally identifiable information (PII) 
-2) direct her payment service to transfer payment for the purchase(s) to the content retailer or a streaming service using her unique identity for that vendor, without disclosing who she is or any financial information
-3) keep her payment service from knowing any details about her purchase 
-4) be able to follow up on her order in case of delivery problems or post-delivery problems. She wants to use the unique identity for follow up as well so as not to expose additional PII. 
+Julie purchases all of her movies, music, and other content from a number of online sites. She also uses several streaming services. She is uncomfortable providing her credit card or bank account information to these sites since at least one of them has been compromised in the past (that she knows of). She uses a payment service for those sites that allow it but she would like her identity and privacy to be better protected. Specifically, she would like to:  
+* Use a unique identifier (pseudonym) to order content and services from the sites without providing any personally identifiable information (PII)  
+* Direct her payment service to transfer payment for the purchase(s) to the content retailer or a streaming service using her unique identity for that vendor, without disclosing who she is or any financial information  
+* Keep her payment service from knowing any details about her purchase  
+* Be able to follow up on her order in case of delivery problems or post-delivery problems. She wants to use the unique identity for follow up as well so as not to expose additional PII.  
 
 Basically she would like to keep all details of herself from the vendor, and all details of the purchase other than the vendor and the amount to be paid from her payment service. The purchase would simply transfer funds equal to the purchase price to an account with the vendor tied to her unique identity. However, she would like her unique identity(s) to be cryptographically linked to her true identity, under her control, so she can tie the purchase and its payment to her account in case of delivery or post-delivery/warranty problems, and for legal and tax purposes. 
 
