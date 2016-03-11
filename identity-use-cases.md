@@ -10,7 +10,7 @@ Linked pseudonym (not defined in RFC 3693): A pseudonym that can be linked to th
 
 Identity Use Cases  
 
-[Identity-Use-Case-1](https://github.com/w3c/tv-ggie/blob/master/identity-use-cases/Identity-Use-Case-1.md): Online Anonymity  
+[Identity-Use-Case-1]: https://github.com/w3c/tv-ggie/blob/master/identity-use-cases/Identity-Use-Case-1.md/ : Online Anonymity  
 Jack is an average guy who has been using his computer and more recently his mobile devices to watch news and other info-videos, listen to music, and generally “surf the web”. He knows his online activities are being monitored by companies, hackers, foreign governments, and others. These fears are confirmed when ads show up for products and services, he has searched for and sites he has visited. He would like to be able to perform these activities anonymously – to lower his online footprint. While no expert, Jack knows that part of the task is for him to avoid providing things like his email address, name, phone number, financial information, etc., to these sites. But he also knows he can be easily targeted by information his devices send to the sites he connects to that is out of his control such as his IP and MAC addresses; and software, hardware, and app “fingerprints”. And since he does use some sites that require him to be identified, for example to make purchases, he knows that it is possible to “connect the dots” and tie the rest of his online activities to them and therefore to him or his devices. 
 He would like to block any personally identifiable information (PII) that he does not consciously provide from being discovered leaving it for him to decide to when and to whom he will identify himself. 
 
