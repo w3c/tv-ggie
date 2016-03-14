@@ -179,7 +179,7 @@ TBD
 
 34.  The user shall be able to delete the pseudonym and/or its link(s) to
     the PII effectively severing the link to the business/service(s) for
-    which it was used.<sup>[9](GGIE.Identity.UC.Requirements.md#9), <sup>[10](GGIE.Identity.UC.Requirements.md#10)</sup>
+    which it was used.<sup>[9](GGIE.Identity.UC.Requirements.md#9), [10](GGIE.Identity.UC.Requirements.md#10)</sup>
 
 
 ##References  
