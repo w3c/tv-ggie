@@ -27,7 +27,7 @@ document are to be interpreted as described in RFC 2119.
 
     : The requirements for anonymity do not include PII voluntarily
     ided by the user directly by entering information on form or via
-    in settings that enable PII to be provided. [Identity Use Case 1](GGIE.Identity.UC.Requirements.md#Identity Use Case 1)
+    in settings that enable PII to be provided. <sup>[1](GGIE.Identity.UC.Requirements.md#1)
 
 1.  Voluntarily entering information shall not enable PII of other forms
     to be provided without the users consent or opt-in. 
@@ -183,7 +183,7 @@ TBD
 
 
 ##References  
-1. <a name="Identity Use Case 1"></a>[Identity Use Case 1: Online Anonymity](https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-1-online-anonymity) 
+1. <a name="1"></a>[Identity Use Case 1: Online Anonymity](https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-1-online-anonymity) 
 2. [Identity Use Case 2: Creating a Unique Identity] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-2-creating-a-unique-identity-pseudonym)
 3. [Identity Use Case 3: Creating and Managing Multiple Unique Identities] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-3-creating-and-managing-multiple-unique-identities)
 4. [Identity Use Case 4: Linked Unique Identities] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-4-linked-unique-identities)
