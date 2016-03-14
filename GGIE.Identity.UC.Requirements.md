@@ -27,7 +27,7 @@ document are to be interpreted as described in RFC 2119.
 
     : The requirements for anonymity do not include PII voluntarily
     ided by the user directly by entering information on form or via
-    in settings that enable PII to be provided.[a relative link](identity-use-cases.md#Identity Use Case 1)
+    in settings that enable PII to be provided. [Identity Use Case 1](GGIE.Identity.UC.Requirements.md#Identity Use Case 1)
 
 1.  Voluntarily entering information shall not enable PII of other forms
     to be provided without the users consent or opt-in. 
@@ -182,3 +182,16 @@ TBD
     which it was used.
 
 
+##References  
+1. <a name="Identity Use Case 1"></a>[Identity Use Case 1: Online Anonymity](https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-1-online-anonymity) 
+2. [Identity Use Case 2: Creating a Unique Identity] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-2-creating-a-unique-identity-pseudonym)
+3. [Identity Use Case 3: Creating and Managing Multiple Unique Identities] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-3-creating-and-managing-multiple-unique-identities)
+4. [Identity Use Case 4: Linked Unique Identities] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-4-linked-unique-identities)
+5. [Identity Use Case 5: Family use of an ExampleCo Account] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-5-family-use-of-an-exampleco-account-formerly-uc-1) 
+6. [Identity Use Case 6: Anonymizing the Creation of Content] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-6-anonymizing-the-creation-of-content-formerly-uc-3-revised) 
+7. [Identity Use Case 7: Linking Content to a Unique Identity] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-7-linking-content-to-a-unique-identity-formerly-uc-4) 
+8. [Identity Use Case 8: Selling Content and Related Assets Linked to a Unique Identity] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-8-selling-content-and-related-assets-linked-to-a-unique-identity-formerly-uc-5) 
+9. [Identity Use Case 9: Severing Links Between Content/Related Assets and a Unique Identity] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-9-severing-links-between-contentrelated-assets-and-a-unique-identity-formerly-uc-6) 
+10. [Identity Use Case 10: Severing Links to a Compromised Identity] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-10-severing-links-to-a-compromised-identity-formerly-uc-7) 
+11. [Identity Use Case 11: Content Purchase Using Unique Identity] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-11-content-purchase-using-unique-identity)
+12. [Identity Use Caser 12: Use of One-Time-Identifiers] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-caser-12-use-of-one-time-identifiers) 
