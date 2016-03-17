@@ -1,5 +1,12 @@
 ##GGIE Identity Use Case Requirements v.1:  
 
+As detailed in the GGIE [Identity Use Cases](https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md), there are functional and privacy requirements beyond what is available when using either simple email-address or social-media usernames as identifiers in the workflows of producing, distributing, and viewing content.  The following requirements have been distilled from the set of GGIE Identity Use Cases and from other GGIE [Use Cases](https://www.w3.org/2011/webtv/wiki/GGIE_TF/UseCases), with a particular focus on attempting to capture those requirements that illustrate the aspects that are needed beyond email and social media usernames.
+These requirements are strongly driven by users’ idealized desire or expectation for privacy while searching for, posting, accessing or purchasing content online. However, this level of privacy is difficult if not impossible today for all but the most technically capable users. The requirements also anticipate that, while in many cases a user may desire anonymity or pseudonymity, many sites and services require identification for business reasons, authentication, etc. Finally, users benefit from many services that use identification for recommendations, automatic authentication and authorization, and more. Therefore, whether due to ignorance of the risks or the complexity of available solutions, users have been willing to trade their privacy for these services. 
+
+Many of these requirements cannot be satisfied with current identity systems, and it is the intention that the requirements captured here be used to help drive future work on satisfying them.
+
+Note: The footnotes link to the Identity Use Cases on which the requirement is based. Requirements without a footnote may require additional Use Cases. 
+
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
 "SHOULD", "SHOULD NOT", “RECOMMENDED", "MAY", and "OPTIONAL" in this
 document are to be interpreted as described in RFC 2119.
