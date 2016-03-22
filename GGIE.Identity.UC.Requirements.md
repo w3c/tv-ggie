@@ -1,11 +1,9 @@
 ##GGIE Identity Use Case Requirements v.1:  
 ###Abstract
-As detailed in the GGIE [Identity Use Cases](https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md), there are functional and privacy requirements beyond what is available when using either simple email-address or social-media usernames as identifiers in the workflows of producing, distributing, and viewing content.  The following requirements have been distilled from the set of GGIE Identity Use Cases and from other GGIE [Use Cases](https://www.w3.org/2011/webtv/wiki/GGIE_TF/UseCases), with a particular focus on attempting to capture those requirements that illustrate the aspects that are needed beyond email and social media usernames.
-These requirements are strongly driven by users’ idealized desire or expectation for privacy while searching for, posting, accessing or purchasing content online. However, this level of privacy is difficult if not impossible today for all but the most technically capable users. The requirements also anticipate that, while in many cases a user may desire anonymity or pseudonymity, many sites and services require identification for business reasons, authentication, etc. Finally, users benefit from many services that use identification for recommendations, automatic authentication and authorization, and more. Therefore, whether due to ignorance of the risks or the complexity of available solutions, users have been willing to trade their privacy for these services. 
 
-Many of these requirements cannot be satisfied with current identity systems, and it is the intention that the requirements captured here be used to help drive future work on satisfying them.
+Many of these requirements cannot be satisfied with current identity systems, this document is an attempt at capturing the distinct user identity requirements for viewer and makers of onine video as a means to document for the purpose of heloping drive future work around identifiers.
 
-Note: The footnotes link to the Identity Use Cases on which the requirement is based. Requirements without a footnote may require additional Use Cases. 
+
 ###Status of this document
 This is a public working in draft collection of requirements that the GGIE task force is discussing and exploring. It has no official standing of any kind and note represent the support or consensus of any standards organization or contributor. GGIE is a taskforce of the W3C Public Web & TV Interest Group 
 
@@ -14,7 +12,20 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
 "SHOULD", "SHOULD NOT", “RECOMMENDED", "MAY", and "OPTIONAL" in this
 document are to be interpreted as described in RFC 2119.
 
+###Introduction
+
+This document is a collection of requirements for user identification of both creators and viewers of online video based on the GGIE Taskforce use cases and dicussion.
+
+As detailed in the GGIE [Identity Use Cases](https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md), there are functional and privacy requirements beyond what is available when using either simple email-address or social-media usernames as identifiers in the workflows of producing, distributing, and viewing content.  The following requirements have been distilled from the set of GGIE Identity Use Cases and from other GGIE [Use Cases](https://www.w3.org/2011/webtv/wiki/GGIE_TF/UseCases), with a particular focus on attempting to capture those requirements that illustrate the aspects that are needed beyond email and social media usernames.
+
+These requirements are strongly driven by users’ idealized desire or expectation for privacy while searching for, posting, accessing or purchasing content online. However, this level of privacy is difficult if not impossible today for all but the most technically capable users. The requirements also anticipate that, while in many cases a user may desire anonymity or pseudonymity, many sites and services require identification for business reasons, authentication, etc. Finally, users benefit from many services that use identification for recommendations, automatic authentication and authorization, and more. Therefore, whether due to ignorance of the risks or the complexity of available solutions, users have been willing to trade their privacy for these services. 
+
+Note: The footnotes link to the Identity Use Cases on which the requirement is based. Requirements without a footnote may require additional Use Cases. 
+
+
 ###Privacy Requirements  
+
+Privacy is an critical component for both viewers and creators of Internet video.  While not every user will have the same level of concern over privacy, there are many scenarios where users will want and expect privacy to be available to them.
 
 1.  Online anonymity: Personally Identifiable Information (PII) shall
     not be provided during online activities in a manner that, either by
@@ -143,8 +154,7 @@ document are to be interpreted as described in RFC 2119.
 24. It may be possible for an identifier to be marked to require it be anonymized when content it is associated with is exported.  For example the identifer XYZ marked as having the anonymize on export attribute and used in the metadata for a video asset would be translated from XYZ to an anonymized identifier in the metadata for the exported video asset.<sup>[7](GGIE.Identity.UC.Requirements.md#7), [8](GGIE.Identity.UC.Requirements.md#8), [9](GGIE.Identity.UC.Requirements.md#9)</sup>   
 
 25. When importing an asset that in its metadata has an identifier issued by an external entity it should be possible to map that idenfitier to an identifier in scope for the system that is importing the asset.   It may be possible to make this association persistent for use in future imports. Likewise, it may be possible to make this association bidirectional so that it is possible to replace the local system identifier with the previously mapped associated external identifier upon expoer of the asset.  
-###Processor/Workflow Requirements  
-TBD  
+ 
 ###Device Requirements  
 26.  Devices shall include the ability to block, obfuscate, encrypt or
     otherwise ensure that PII associated with the device such as MAC
