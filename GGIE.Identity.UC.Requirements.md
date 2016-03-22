@@ -5,7 +5,7 @@ Many of these requirements cannot be satisfied with current identity systems, th
 
 
 ###Status of this document
-This is a public working in draft collection of requirements that the GGIE task force is discussing and exploring. It has no official standing of any kind and note represent the support or consensus of any standards organization or contributor. GGIE is a taskforce of the W3C Public Web & TV Interest Group 
+This is a public working in draft collection of requirements that the GGIE task force is discussing and exploring. It has no official standing of any kind and does not represent the support or consensus of any standards organization or contributor. GGIE is a taskforce of the W3C Public Web & TV Interest Group 
 
 ###Conventions
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
