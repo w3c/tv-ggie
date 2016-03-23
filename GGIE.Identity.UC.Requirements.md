@@ -130,7 +130,7 @@ Privacy is an critical component for both viewers and creators of Internet video
     PII from the user. One method for this might be the user presents his 
     pseudonym to a service requesting a resource. The service discovers the 
     issuer and sends a request via the user to the issuer to verify the user of 
-    the pseudonym which is relayed via the user to the service.  
+    the pseudonym which is relayed via the user to the service.<sup>[13](GGIE.Identity.UC.Requirements.md#13)<sup>  
 ###User Requirements
 
 22. Users should only be required to understand the higher level goals
@@ -152,8 +152,8 @@ Privacy is an critical component for both viewers and creators of Internet video
 24. It may be possible for an identifier to be marked to require it be anonymized when content it is associated with is exported.  For example the identifer XYZ marked as having the anonymize on export attribute and used in the metadata for a video asset would be translated from XYZ to an anonymized identifier in the metadata for the exported video asset.<sup>[7](GGIE.Identity.UC.Requirements.md#7), [8](GGIE.Identity.UC.Requirements.md#8), [9](GGIE.Identity.UC.Requirements.md#9)</sup>   
 
 25. When importing an asset that has in its metadata an identifier issued by an external entity it should be possible to map that idenfitier to an identifier in scope for the system that is importing the asset.   It may be possible to make this association persistent for use in future imports. Likewise, it may be possible to make this association bidirectional so that it is possible to replace the local system identifier with the previously mapped associated external identifier upon expoer of the asset.  
- 
 ###Device Requirements  
+
 26.  Devices shall include the ability to block, obfuscate, encrypt or
     otherwise ensure that PII associated with the device such as MAC
     addresses, IP addresses assigned to it, device related fingerprints,
