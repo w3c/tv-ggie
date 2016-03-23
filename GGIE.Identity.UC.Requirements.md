@@ -46,12 +46,10 @@ Privacy is an critical component for both viewers and creators of Internet video
 
         -   Other PII (TBD)
 
-    The requirements for anonymity do not include PII voluntarily
-    ided by the user directly by entering information on form or via
-    in settings that enable PII to be provided. <sup>[1](GGIE.Identity.UC.Requirements.md#1)</sup>
+    The requirements for anonymity do not include PII voluntarily provided by the user directly by entering information on a form or via opt-in settings that enable PII to be provided. <sup>[1](GGIE.Identity.UC.Requirements.md#1)</sup>
 
 2.  Voluntarily entering information shall not enable PII of other forms
-    to be provided without the users consent or opt-in.<sup>[4](GGIE.Identity.UC.Requirements.md#4), [5](GGIE.Identity.UC.Requirements.md#5)</sup>
+    to be provided without the user's consent or opt-in.<sup>[4](GGIE.Identity.UC.Requirements.md#4), [5](GGIE.Identity.UC.Requirements.md#5)</sup>
 
 3.  Anonymity may use of one or more 3rd party services to block,
     eliminate, encrypt, or obfuscate or otherwise make unusable certain
@@ -60,7 +58,7 @@ Privacy is an critical component for both viewers and creators of Internet video
 4.  A pseudonym is a disguised identity (a pseudonym) that must not
     disclose the true (legal) identity of the holder.<sup>[2](GGIE.Identity.UC.Requirements.md#2)</sup>
 
-5.  Pseudonymity requires online anonymity.<sup>[2](GGIE.Identity.UC.Requirements.md#2)</sup>
+5.  Pseudonymity shall include online anonymity.<sup>[2](GGIE.Identity.UC.Requirements.md#2)</sup>
 
 6.  The user shall have the ability to create or delete
     their pseudonym(s).<sup>[2](GGIE.Identity.UC.Requirements.md#2), [3](GGIE.Identity.UC.Requirements.md#3)</sup>
@@ -76,8 +74,8 @@ Privacy is an critical component for both viewers and creators of Internet video
     true (legal) identity and to specific PII under the control of the
     owner of the pseudonym.<sup>[4](GGIE.Identity.UC.Requirements.md#4)</sup>
 
-9.  Link(s) between pseudonyms and to specific PII already linked to it
-    under control of the user must be able to be modified or eliminated
+9.  Link(s) between pseudonyms and to specific PII already linked to them,
+    under control of the user, must be able to be modified or eliminated
     under the owner’s control.<sup>[5](GGIE.Identity.UC.Requirements.md#5), [6](GGIE.Identity.UC.Requirements.md#6)</sup>
 
 10.  Pseudonyms may use a 3rd party service to assign and/or maintain
@@ -91,7 +89,7 @@ Privacy is an critical component for both viewers and creators of Internet video
     from others while being communicated to deter tracking by
     unknown parties.<sup>[5](GGIE.Identity.UC.Requirements.md#5), [12](GGIE.Identity.UC.Requirements.md#12)</sup>  
 ###Naming Requirements
-13.  A pseudonym must be human readable.<sup>[4](GGIE.Identity.UC.Requirements.md#4)</sup>
+13.  A pseudonym must include a human readable component.<sup>[4](GGIE.Identity.UC.Requirements.md#4)</sup>
 
 14.  A pseudonym must include or be linked to a unique number or code to
     enable the many online activities that require data and metadata to
@@ -121,26 +119,24 @@ Privacy is an critical component for both viewers and creators of Internet video
     that require it under control of the user. *Used in all Identity Use Cases (see References below).*
 ###Issuer Requirements  
 19.  An issuer of a pseudonym shall create a unique pseudonym based on
-    the user’s input (the human readable form).
+    the user’s input (the human readable form).<sup>[2](GGIE.Identity.UC.Requirements.md#2)<sup>
 
 20.  An issuer of a pseudonym shall maintain anonymity for the user
-    except as specified by the user and any
-    legal/regulatory requirements.
+    except as specified by the user and any legal/regulatory requirements.<sup>[2](GGIE.Identity.UC.Requirements.md#2)<sup>
 21.  A pseudonym that has been issued by a 3rd party issuer should include 
     a means to identify the issuer. The purpose is to enable a service 
     presented with the pseudonym to verify it is valid in cases where e.g. 
     the service needs to authenticate the user of the pseudonym without requiring
     PII from the user. One method for this might be the user presents his 
-    pseudonym to a service reqeuesting a resource. The service discovers the 
+    pseudonym to a service requesting a resource. The service discovers the 
     issuer and sends a request via the user to the issuer to verify the user of 
     the pseudonym which is relayed via the user to the service.  
 ###User Requirements  
-22.  Users should only be required to understand the higher level goals
+22. Users should only be required to understand the higher level goals
     of online anonymity and the use of unique identities (pseudonyms).
     They should not be required to understand the underlying mechanisms
-    and settings required to achieve them.
-
-23.  In situations where achieving these goals crosses device and/or
+    and settings required to achieve them.<sup>[1](GGIE.Identity.UC.Requirements.md#1)</sup>
+23. In situations where achieving these goals crosses device and/or
     application boundaries standards may be required to allow the user
     to propagate their choices across the boundaries without having to
     coordinate individual settings at each point. For example, a setting
@@ -148,12 +144,12 @@ Privacy is an critical component for both viewers and creators of Internet video
     ensure PII is not made available through local settings (e.g. a
     router with a fixed IP address) without the user having to make
     changes to each device and application settings. This may be
-    accomplished by the use of a trusted 3^rd^ party as an intermediary,
-    a proxy service, or other means.  
+    accomplished by the use of a trusted 3rd party as an intermediary,
+    a proxy service, or other means.<sup>[1](GGIE.Identity.UC.Requirements.md#1)</sup>  
 ###Import / Export Requirements  
 24. It may be possible for an identifier to be marked to require it be anonymized when content it is associated with is exported.  For example the identifer XYZ marked as having the anonymize on export attribute and used in the metadata for a video asset would be translated from XYZ to an anonymized identifier in the metadata for the exported video asset.<sup>[7](GGIE.Identity.UC.Requirements.md#7), [8](GGIE.Identity.UC.Requirements.md#8), [9](GGIE.Identity.UC.Requirements.md#9)</sup>   
 
-25. When importing an asset that in its metadata has an identifier issued by an external entity it should be possible to map that idenfitier to an identifier in scope for the system that is importing the asset.   It may be possible to make this association persistent for use in future imports. Likewise, it may be possible to make this association bidirectional so that it is possible to replace the local system identifier with the previously mapped associated external identifier upon expoer of the asset.  
+25. When importing an asset that has in its metadata an identifier issued by an external entity it should be possible to map that idenfitier to an identifier in scope for the system that is importing the asset.   It may be possible to make this association persistent for use in future imports. Likewise, it may be possible to make this association bidirectional so that it is possible to replace the local system identifier with the previously mapped associated external identifier upon expoer of the asset.  
  
 ###Device Requirements  
 26.  Devices shall include the ability to block, obfuscate, encrypt or
@@ -194,11 +190,11 @@ Privacy is an critical component for both viewers and creators of Internet video
     represented by the pseudonym (i.e. they have  the necessary credentials “on file”
     with the 3rd party to use the service).<sup>[4](GGIE.Identity.UC.Requirements.md#4), [5](GGIE.Identity.UC.Requirements.md#5)</sup>
 
-33.  The PII linked to that pseudonym should be persistent to enable a
-    service to authenticate the user based on the pseudonym.
+33.  PII linked to a pseudonym should be persistent to enable a
+    service to authenticate the user based on the pseudonym.<sup>[4](GGIE.Identity.UC.Requirements.md#4), [5](GGIE.Identity.UC.Requirements.md#5), <sup>[6](GGIE.Identity.UC.Requirements.md#6), [7](GGIE.Identity.UC.Requirements.md#7), [8](GGIE.Identity.UC.Requirements.md#8) 
 
-34.  The user shall be able to delete the pseudonym and/or its link(s) to
-    the PII effectively severing the link to the business/service(s) for
+34.  The user shall be able to delete a pseudonym and/or its link(s) to
+    PII effectively severing the link to the business/service(s) for
     which it was used.<sup>[9](GGIE.Identity.UC.Requirements.md#9), [10](GGIE.Identity.UC.Requirements.md#10)</sup>
 
 
@@ -214,4 +210,5 @@ Privacy is an critical component for both viewers and creators of Internet video
 9. <a name="9"></a>[Identity Use Case 9: Severing Links Between Content/Related Assets and a Unique Identity] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-9-severing-links-between-contentrelated-assets-and-a-unique-identity-formerly-uc-6) 
 10. <a name="10"></a>[Identity Use Case 10: Severing Links to a Compromised Identity] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-10-severing-links-to-a-compromised-identity-formerly-uc-7) 
 11. <a name="11"></a>[Identity Use Case 11: Content Purchase Using Unique Identity] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-11-content-purchase-using-unique-identity)
-12. <a name="12"></a>[Identity Use Caser 12: Use of One-Time-Identifiers] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-caser-12-use-of-one-time-identifiers) 
+12. <a name="12"></a>[Identity Use Case 12: Use of One-Time-Identifiers] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-12-use-of-one-time-identifiers) 
+13. <a name="13"></a>[Identity Use Case 13: Identifying a 3rd Party Issuer of a Unique Identity] (https://github.com/w3c/tv-ggie/blob/master/identity-use-cases.md#identity-use-case-13-identifying-a-3rd-party-issuer-of-a-unique-identity)
